@@ -20,7 +20,7 @@ for i in range(0, len(dados)):
 
         msg = email.message.Message()
         msg['Subject'] = "AUTOMAÇÃO DE EMAILS"
-        msg['From'] = 'asaphpevidor@gmail.com'
+        msg['From'] = 'xxxxxxxxxxxxxxxxxxxxx@gmail.com'
         msg['To'] = dados["emails"][i]
 
         # para senha sera gerada pelo gmail
