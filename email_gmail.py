@@ -32,7 +32,7 @@ for i in range(0, len(dados)):
         ativa verificação de 2 etapas
         senha de app
         """
-        password = 'eypdwxulptyppmjt'
+        password = 'xxxxxxxxxxxxxx' 
 
         msg.add_header('Content-Type', 'text')  # se quiser escrever com HTML "text/html"
         msg.set_payload(corpo_email)
